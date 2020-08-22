@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  /*All 4 sides*/
+  text-align: center;
+}
+
+/*Top Container*/
+.capital {
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+}
+
+.desc {
+  margin-top: 15px;
+  font-family: 'Sacramento', cursive;
+  font-size: 30px;
+  padding-top: 0;
+  color: rgb(95, 207, 198);
+}
+
+h1 {
+  color: rgb(95, 207, 198);
+  padding-top: 20px;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  margin: 0 auto 0 auto;
+  /* a technique to bring the elements into center;*/
+}
+
+.xe {
+  /*Top clcoud*/
+  position: absolute;
+  right: 40%;
+  top: 50px;
+  /*  left:30px;/*moves the element 30px from the left relative to the static postitioning* and gives 30 px of space from the left*/
+  /* These are the 4 coordinates
+  right: ;
+  top: ; moves the element by the specifies pixels from the top
+  bottom: ;*/
+}
+
+.Top {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+/*p{ /*Block by default. This means that it block and doesnt allow any other element to sit in the same line as it*/
+/*display: inline; used to display paragraph content inline. But the ability to change the width is lost. */
+/*didplay: inline-block; allows to adjust the width and also allow other elements to sit in the same line as it.*/
+/*display: none; used to hide elements from the web page.
+}*/
+.bottom-cloud {
+  position: absolute;
+  left: 40%;
+}
+
+/*Middle container*/
+.pp {
+  height: 120px;
+}
+
+.middle-container {
+  padding-top: 100px;
+  background-color: rgb(224, 235, 232);
+}
+
+h2 {
+  font-family: 'Sacramento', cursive;
+  color: rgb(95, 207, 198);
+  font-size: 30px;
+}
+
+.desc-cloud {
+  top: -50px;
+  margin-top: 0;
+  display: block;
+  position: relative;
+  left: 30%;
+}
+
+hr {
+  border-style: none;
+  /*to eliminate all the borders */
+  border-top-style: dotted;
+  /*to make just the top style of the border visible and dotted*/
+  border-color: rgb(33, 125, 104);
+  border-width: 10px;
+  width: 5%;
+}
+
+.profile {
+  vertical-align: top;
+}
+
+#one {
+  left: 40%;
+  width: 19%;
+  text-align: center;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+}
+
+.coding {
+  height: 100px;
+}
+
+.wyw {
+  left: 300px;
+}
+
+#two {
+  width: 50%;
+  left: 200px;
+}
+
+#three {
+  width: 50%;
+  left: 250px;
+}
+
+h3 {
+  postition: relative;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.skillsone {
+  position: relative;
+  height: 200px;
+  width: 50%;
+}
+.wyn {
+  position: relative;
+  height: 200px;
+  width: 50%;
+  left: 800px;
+}
+.monkey{
+  height: 200px;
+}
+
+
+/*Bottom container*/
+.contactme{
+  height: 50px;
+}
+.middle-container img{
+  margin-top: 0px;
+}
